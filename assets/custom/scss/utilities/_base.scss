@@ -1,0 +1,43 @@
+/* base css for common design for support all component */
+/***
+ Theme Name: bd govt a2i
+ Theme URI: 
+ Description: Bangladesh govorment a2i landing page
+ Author: chbappy.com
+ Author URI: http://chbappy.com
+ Version: 1.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+==============================
+TABLE CONTENT
+ Import Google Fonts
+ Include Third Party CSS Library
+ GENERAL
+ HEADER
+ ABOUT
+ E PARTICIPATION ZONE
+ FEEDBACK
+ PUBLIC DASHBOARD
+ FOOTER
+***/
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+.nav-pills {
+  .active {
+    background: $color1 !important;
+    color: #fff !important;
+  }
+  button.nav-link {
+    color: $darkgray;
+  }
+}
